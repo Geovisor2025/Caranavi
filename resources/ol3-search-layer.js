@@ -90,7 +90,7 @@ var SearchLayer = (function (Control) {
     condition: ol.events.condition.never,
   style: new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: 'rgba(0, 153, 255, 0.5)', // borde azul con 50% de opacidad
+      color: 'rgba(0, 153, 255, 0.1)', // borde azul con 50% de opacidad
       width: 2
     }),
     fill: new ol.style.Fill({
